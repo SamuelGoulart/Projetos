@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Samuel Almeida Goulart">
+    <title>Curso de Sistemas Operacionais</title>
+
+    <link rel="stylesheet" type="text/css" href="src/css/html_css.css">
+    <link rel="shortcut icon" type="imagem/x-icon" href="src/imagens/icon/logo.png">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script src="src/js/jquery.js"></script>
+    <script src="src/js/ancora.js"></script>
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <script src="src/js/bootstrap.js"></script>
+
+</head>
+
+<body>
+    <!-- ******* Header ****************  -->
+    <div id="imagen_de_fundo"></div>
+    <section id="apresentacao_curso">
+        <h1 id="tituloDoCurso">DDesenvolvimento Web com HTML e CSS</h1>
+        <section id="gradeCurricular">
+            <h3>O que vai apresender?</h3>
+            <p class="textCorrido">Como criar uma tabela em HTML;</p>
+            <p class="textCorrido">Como inserir uma imagem em HTML;</p>
+            <p class="textCorrido">Como criar uma lista Horizontal em CSS;</p>
+            <p class="textCorrido">Como colocar uma imagem de Backgrond em CSS</p>
+        </section>
+        <div id="img_Professor">
+            <img src="src/imagens/html_css/professor2.jpg" alt="Imagem do professor">
+        </div>
+    </section>
+
+    <!-- Seção da linha do Tempo  -->
+    <section id="linhaDoTempo">
+        <h1>Linha do tempo do curso</h1>
+        <div id="topicos">
+
+            <a href="#topico1" onclick=" return abrirTopico1();">
+                <section class="topicoLeft">
+                    <div class="topico circoloDaLinhaDoTempo">
+                        <h2 class="tituloTopicoLeft">1 Tópico</h2>
+                    </div>
+                    <p class="descricaoDoTopico"> Como criar uma tabela em HTML</p>
+                </section>
+            </a>
+
+            <a href="#topico2" onclick=" return abrirTopico2();">
+                <section class="topicoRight">
+                    <div class="topico circoloDaLinhaDoTempo2">
+                        <h2 class="tituloTopicoRight">2 Tópico</h2>
+                    </div>
+                    <p class="descricaoDoTopico">Como inserir uma imagem em HTML
+                    </p>
+                </section>
+            </a>
+
+            <a href="#topico3" onclick=" return abrirTopico3();">
+                <section class="topicoLeft">
+                    <div class="topico circoloDaLinhaDoTempo3">
+                        <h2 class="tituloTopicoLeft">3 Tópico</h2>
+                    </div>
+                    <p class="descricaoDoTopico">Como inserir uma imagem em HTML</p>
+                </section>
+            </a>
+
+            <a href="#topico4" onclick=" return abrirTopico4();">
+                <section class="topicoRight">
+                    <div class="topico circoloDaLinhaDoTempo4">
+                        <h2 class="tituloTopicoRight">4 Tópico</h2>
+                    </div>
+                    <p class="descricaoDoTopico">Como colocar uma imagem de backgroud em css</p>
+                </section>
+            </a>
+        </div>
+    </section>
+
+    <!-- V Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+        <a href="index.html"><span id="iconeHome" class="iconify" data-inline="false" data-icon="clarity:home-line" ></span> </a>
+    </div>
+
+    <!-- Seção do Conteúdo do curso textos e videos -->
+    <section id="conteudoTextosVideos">
+        <h1 id="tituloConteudo">Acesse aqui, para ver os videos e textos da aula</h1>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" id="topico1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                     Tópico 1 -   Como criar uma tabela em HTML
+                   </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <embed type="text/html" src="https://www.youtube.com/embed/WoqXpZrNy_M" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="1180" height="637">
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" id="topico2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Tópico 2 - Como inserir uma imagem em HTML
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" id="topico3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Tópico 3 - Como criar uma lista Horizontal em CSS
+                   </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingQuarto">
+                    <button class="accordion-button collapsed" id="topico4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseQuarto" aria-expanded="false" aria-controls="flush-collapseQuarto">
+                    Tópico 4 - Como colocar uma imagem de Backgrond em CSS
+                   </button>
+                </h2>
+                <div id="flush-collapseQuarto" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seção  do comentário -->
+    <section id="comentario">
+        <hr id="hrComentario">
+        <h1 class="titulo tituloComentario">Deixe seu comentário</h1>
+        <div id="alturaDoForm">
+            <form>
+                <label class="textCorrido">Nome</label><br>
+                <input type="text"> <br><br>
+                <label class="textCorrido">E-mail</label><br>
+                <input type="email"><br><br>
+                <label class="textCorrido">Comentário</label><br>
+                <textarea rows="30"></textarea><br>
+                <input id="inputButton" type="button" value="Enviar">
+            </form>
+        </div>
+
+        <!-- Comentario dos alunos -->
+        <div class="comentarioDoAluno">
+            <div class="fotoDoComentario">
+                <img src="src/imagens/avatar/avatarMulher.png" alt="Foto">
+            </div>
+            <div class="formatacaoDoComentario">
+                <p>Suzana Cardoso. </p>
+                <p>"Um curso único e de excelente nível. Não tenho palavras no meu vocabulário para descrever o conteúdo o serviço prestado, além da qualidade da profissional que nos acompanhou no curso. Parabéns."</p>
+            </div>
+        </div>
+        <div class="comentarioDoAluno">
+            <div class="fotoDoComentario">
+                <img src="src/imagens/avatar/ellipse.png" alt="Foto">
+            </div>
+            <div class="formatacaoDoComentario">
+                <p>João Guedes da Franca</p>
+                <p>"Aproveito para agradecer mais uma vez pelo workshop. Valeu muito a pena"</p>
+            </div>
+        </div>
+        <div class="comentarioDoAluno">
+            <div class="fotoDoComentario">
+                <img src="src/imagens/avatar/avatarMulher.png" alt="Foto">
+            </div>
+            <div class="formatacaoDoComentario">
+                <p>Antonia Farias Costa Sousa.</p>
+                <p>"Curso de extrema importância para a formação. Parabéns, pela metodologia de ensino. Obrigado." </p>
+            </div>
+        </div>
+    </section>
+    <!-- Seção do Footer -->
+    <footer>
+        <div>
+            <a href="index.html"><img src="src/imagens/icon/logo.png" alt="Logo da escola"></a>
+            
+            <hr id="hrFooter">
+            <div id="div_links">
+                <ul>
+                    <li> <a href="index.html"> Cursos</a></li>
+                    <li> <a href="index.html">Sobre nós</a> </li>
+                    <li> <a href="index.html">Presencial X EAD</a> </li>
+                    <li> <a href="index.html">Contato</a> </li>
+                    <li> <a href="index.html">Nossos professores</a> </li>
+                    <li> <a href="index.html">Home</a> </li>
+                </ul>
+            </div>
+            <div id="inscreva">
+                <p>Inscreva-se para saber quando vai sair os próximos cursos</p>
+                <form>
+                    <input type="text">
+                    <button id="bt_Inscreva">
+                       <span id="icone_seta" class="iconify" data-inline="false" data-icon="bi:arrow-down-short" >
+                         </span>
+                    </button>
+                </form>
+
+            </div>
+            <div id="div_IconesRedesSocias">
+                <a href="https://www.youtube.com/channel/UCVFaiIEkPMOIMyb8hr3pDoA">
+                    <span class="iconify iconesRedesSocias" data-inline="false" data-icon="logos:youtube-icon" style="font-size: 50px;"></span>
+                </a>
+                <a href="https://m.facebook.com/unix.code.5">
+                   <span class="iconify iconesRedesSocias" data-inline="false" data-icon="akar-icons:facebook-fill" style="color: #3b5998; font-size: 50px;"></span>
+                </a>
+                <a href="https://www.instagram.com/unixcode21/">
+                 <span class="iconify iconesRedesSocias" data-inline="false" data-icon="fa-brands:instagram" style="color: #ffffff; font-size: 50px;"></span>
+                </a>
+                <a href="https://mobile.twitter.com/unix64148197">
+                    <span class="iconify  iconesRedesSocias" data-inline="false" data-icon="logos:twitter" style="font-size: 50px;"></span>
+                </a>
+            </div>
+            </section>
+        </div>
+
+        <div id="direitosReservados">
+            <p id="p_todosOsDireitosReservados">© Copyright 2021 <br> Todos os direitos reservados - Política de Privacidade</p>
+        </div>
+    </footer>
+
+    <script>
+        var delay = 2500; //1 seconds
+
+        function abrirTopico1() {
+            setTimeout(function() {
+                document.getElementById("topico1").click();
+            }, delay);
+        }
+
+        function abrirTopico2() {
+            setTimeout(function() {
+                document.getElementById("topico2").click();
+            }, delay);
+        }
+
+        function abrirTopico3() {
+            setTimeout(function() {
+                document.getElementById("topico3").click();
+            }, delay);
+        }
+
+        function abrirTopico4() {
+            setTimeout(function() {
+                document.getElementById("topico4").click();
+            }, delay);
+        }
+
+        function abrirTopico5() {
+            setTimeout(function() {
+                document.getElementById("topico5").click();
+            }, delay);
+        }
+
+        function abrirTopico6() {
+            setTimeout(function() {
+                document.getElementById("topico6").click();
+            }, delay);
+        }
+    </script>
+
+    <!-- V Libras -->
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- V Libras -->
+</body>
+
+</html>

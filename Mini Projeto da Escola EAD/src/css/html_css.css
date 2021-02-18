@@ -1,0 +1,410 @@
+/* CLASSES DE PADRONIZAÇÃO (GLOBAIS) */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-background: linear-gradient(90.08deg, #FE6201 0.05%, #ED4B7C 99.92%);
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.1em;
+}
+
+.textCorrido {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.1em;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+    color: black;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    margin-left: 50px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1::first-letter {
+    font-size: 1.3em;
+    color: #FE6201;
+}
+
+
+/* ******* Header **************** */
+
+#imagen_de_fundo {
+    width: 100%;
+    height: 440px;
+    background-image: url(../imagens/html_css/banner-curso-html-css\ 1.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin: auto;
+}
+
+#apresentacao_curso {
+    width: 1000px;
+    height: 444px;
+    margin: auto;
+    margin-top: -256px;
+    background: var(--color-background);
+    margin-bottom: 70px;
+}
+
+h3 {
+    margin-top: 15px;
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+#gradeCurricular {
+    width: 555px;
+    float: left;
+    margin-left: 80px;
+}
+
+#gradeCurricular>p {
+    font-size: 1.2em;
+    color: white;
+    margin-top: 15px;
+}
+
+#img_Professor {
+    float: right;
+    margin-right: 15px;
+}
+
+#img_Professor>img {
+    border-radius: 138px;
+}
+
+#tituloDoCurso {
+    font-family: "Roboto";
+    font-size: 2.1em;
+    color: white;
+    text-align: center;
+}
+
+
+/*Icone do home*/
+
+#iconeHome {
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+
+/* Seção da linha do Tempo */
+
+#topicos {
+    margin-top: -115px;
+}
+
+#linhaDoTempo {
+    width: 1200px;
+    height: 900px;
+    margin: auto;
+}
+
+#linhaDoTempo>h1 {
+    text-align: center;
+    font-size: 2.1em;
+}
+
+.topico {
+    width: 100%;
+    height: 70px;
+}
+
+.descricaoDoTopico {
+    text-align: center;
+    color: white;
+}
+
+.tituloTopicoLeft {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    color: white;
+    float: right;
+    font-size: 1.7em;
+}
+
+.tituloTopicoRight {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+    float: left;
+    font-size: 1.7em
+}
+
+#linhaDoTempo::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 750px;
+    left: 50%;
+    top: 800px;
+    margin: auto;
+    background: var(--color-background);
+}
+
+.circoloDaLinhaDoTempo::before,
+.circoloDaLinhaDoTempo2::before,
+.circoloDaLinhaDoTempo3::before,
+.circoloDaLinhaDoTempo4::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 860px;
+    border-radius: 100%;
+    background: var(--color-background);
+    left: 49%;
+}
+
+.circoloDaLinhaDoTempo2::before {
+    top: 1020px !important;
+}
+
+.circoloDaLinhaDoTempo3::before {
+    top: 1200px !important;
+}
+
+.circoloDaLinhaDoTempo4::before {
+    top: 1360px !important;
+}
+
+.topicoLeft {
+    width: 400px;
+    height: 146px;
+    margin-top: 66px;
+    margin-left: 150px;
+    background: var(--color-background);
+}
+
+.topicoRight {
+    width: 400px;
+    height: 146px;
+    margin-top: 20px;
+    margin-right: 150px;
+    background: var(--color-background);
+    float: right;
+}
+
+.topicoLeft {
+    margin-top: 183px !important;
+}
+
+
+/* Seção do conteúdo videos e textos */
+
+#conteudoTextosVideos {
+    width: 1200px;
+    margin: auto;
+}
+
+#tituloConteudo {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 2.1em;
+}
+
+.accordion-button,
+h2,
+button {
+    color: white;
+}
+
+
+/* Seção do comentário */
+
+#comentario {
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+#hrComentario {
+    width: 700px;
+    height: 5px;
+    background: var(--color-background);
+    border: 0px;
+}
+
+#alturaDoForm {
+    height: 450px;
+}
+
+form>input,
+textarea {
+    width: 500px;
+    height: 32px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border: 2px solid;
+    border-color: #FE6201;
+    margin-top: 20px;
+}
+
+textarea {
+    height: 166px;
+}
+
+label {
+    color: black;
+}
+
+#inputButton {
+    background: var(--color-background);
+    color: white;
+    height: 40px;
+}
+
+.comentarioDoAluno {
+    width: 700px;
+    height: 120px;
+    border-radius: 25px 0px;
+    border: 2px solid;
+    border-color: #FE6201;
+    margin-top: 30px;
+}
+
+.tituloComentario {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.fotoDoComentario {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin-left: 40px;
+}
+
+.formatacaoDoComentario {
+    width: 550px;
+    height: 90px;
+    float: right;
+    margin-top: -70px;
+}
+
+
+/* Seção do footer */
+
+footer {
+    width: 100%;
+    height: 437px;
+    margin: auto;
+    margin-top: 70px;
+    background: linear-gradient(180deg, #D0CAC8 0%, #FB6A4C 81.77%);
+}
+
+footer>div {
+    width: 1200px;
+    height: 365px;
+    margin: auto;
+}
+
+#inscreva {
+    margin: 30px 0px 0px 75px;
+}
+
+#inscreva>p {
+    color: white;
+}
+
+#bt_Inscreva {
+    width: 30px;
+    height: 40px;
+    background: var(--color-background);
+    border-color: transparent;
+    border-radius: 0px 0px 10px 12px;
+    transform: rotate(-90deg);
+    margin-left: -37px;
+}
+
+#icone_seta {
+    font-size: 32px;
+    color: #ffffff;
+    margin-top: -20px;
+}
+
+footer>div>a>img {
+    margin: 10px 0px 20px 20px;
+}
+
+#hrFooter {
+    width: 1050px;
+    height: 4px;
+    border: 0px;
+    margin: auto;
+    background: var(--color-background);
+}
+
+#div_links {
+    width: 500px;
+    height: 80px;
+    margin: 50px 55px 0px 0px;
+    float: right;
+}
+
+#div_links>ul>li {
+    margin-bottom: 30px;
+}
+
+#div_links>ul>li>a {
+    color: white;
+}
+
+#div_IconesRedesSocias {
+    width: 500px;
+    height: 80px;
+    margin: 70px 0px 0px 450px;
+}
+
+.iconesRedesSocias {
+    margin: 15px !important;
+}
+
+#direitosReservados {
+    width: 100%;
+    height: 70px;
+    background: var(--color-background);
+}
+
+#p_todosOsDireitosReservados {
+    text-align: center;
+    color: white;
+    margin: 0px !important;
+    padding-top: 13px;
+}

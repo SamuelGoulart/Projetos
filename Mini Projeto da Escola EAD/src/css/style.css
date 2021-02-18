@@ -1,0 +1,524 @@
+/* CLASSES DE PADRONIZAÇÃO (GLOBAIS) */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.1em;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.1em;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+    margin: 20px 0px 0px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    margin-left: 50px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color-background: linear-gradient(90.08deg, #FE6201 0.05%, #ED4B7C 99.92%);
+}
+
+h2::first-letter {
+    font-size: 1.3em;
+    color: #FE6201;
+}
+
+
+/* Seção do Header */
+
+header {
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+    background-color: transparent;
+}
+
+#logo {
+    width: 120px;
+    height: 70px;
+    float: left;
+}
+
+#li {
+    margin-left: 120px;
+}
+
+nav>ul>li>a {
+    color: black;
+}
+
+nav>ul>li {
+    margin-top: 20px;
+}
+
+
+/* Seção da apresentação */
+
+#main {
+    width: 1200px;
+    height: 677px;
+    margin: auto;
+}
+
+#textapresentacao {
+    width: 560px;
+    float: left;
+    height: 100%;
+}
+
+#textapresentacao>h2 {
+    margin-top: 155px;
+    float: left;
+    margin-left: 20px;
+}
+
+#textapresentacao>p {
+    float: left;
+    margin-top: 300px;
+    margin-left: -70px;
+}
+
+#conhecaNossosCursos {
+    margin-top: 450px;
+    display: block;
+}
+
+#p_conhecaCursos {
+    margin-top: -38px;
+    color: white;
+}
+
+#imagemmain {
+    width: 640px;
+    height: 100%;
+    float: right;
+    margin-top: -70px;
+}
+
+
+/* Seção de Quem somos e legislação */
+
+#quemSomos {
+    width: 1200px;
+    height: 551px;
+    margin: auto;
+}
+
+#fotoQuemSomos {
+    max-width: 581px;
+    height: 551px;
+    float: left;
+    background-color: brown;
+    margin: auto;
+}
+
+#textQuemSomos {
+    width: 619px;
+    height: 551px;
+    float: right;
+    margin: auto
+}
+
+#titulo_Legislacao {
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+
+
+/* Seção Diferença entre Presencial e EAD  */
+
+#diferencaPresencial_X_EAD {
+    width: 1200px;
+    height: 740px;
+    margin: auto;
+}
+
+#diferencaPresencial_X_EAD>h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#fotoEnsinoPresencial {
+    width: 400px;
+    height: 370px;
+    float: right;
+}
+
+#textEnsinoPresencial {
+    width: 700px;
+    height: 100px;
+    float: left;
+    margin: auto;
+    margin-top: 135px;
+    margin-bottom: 135px;
+}
+
+#fotoEnsinoEAD {
+    width: 400px;
+    height: 370px;
+    float: left;
+}
+
+#textEnsinoEAD {
+    width: 700px;
+    height: 250px;
+    float: right;
+    margin: auto;
+    margin-top: 60px;
+}
+
+
+/* Seção o que nossos alunos tem a diz  */
+
+#secaoDeDepoimentos {
+    width: 1200px;
+    height: 500px;
+    padding-top: 90px;
+    margin: auto;
+}
+
+#secaoDeDepoimentos>h2 {
+    width: 650px;
+    margin: auto;
+    padding-top: 20px;
+}
+#secaoDeDepoimentos>h2>img {
+    float: left;
+}
+
+#depoimentos {
+    width: 800px;
+    height: 265px;
+    background: var(--color-background);
+    margin: auto;
+    margin-top: 50px;
+}
+
+#fotoDepoimentos {
+    width: 120px;
+    height: 110px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+#depoimentoDosAlunos {
+    width: 700px;
+    height: 40px;
+    margin: auto;
+}
+
+#iconeAspas {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+#iconeAspas2 {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+#depoimentoDosAlunos>p {
+    color: white;
+}
+
+
+/*Seção Nossos profesores  */
+
+#secaoProfessores {
+    width: 1200px;
+    height: 560px;
+    margin: auto;
+}
+
+#fotomargin {
+    margin-top: 30px;
+}
+
+#fotoProfessor1 {
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    margin-left: 37px;
+    float: left;
+}
+
+#fotoProfessor2 {
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    margin-left: 37px;
+    margin-right: 37px;
+    float: left;
+}
+
+#fotoProfessor3 {
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    margin-right: 37px;
+    float: left;
+}
+
+
+/*Seção Nossos Cursos  */
+
+#secaoNossosCursos {
+    width: 1200px;
+    height: 715px;
+    margin: auto;
+}
+
+#secaoSO {
+    width: 1200px;
+    height: 320px;
+    margin: auto;
+}
+
+#secaoDesenvolvimento {
+    width: 1200px;
+    height: 320px;
+    margin: auto;
+}
+
+#imagemSistemasOperacionais {
+    width: 615px;
+    height: 320px;
+    float: left;
+}
+
+#textSistemasOperacionais {
+    width: 585px;
+    height: 320px;
+    float: right;
+}
+
+#imagemDesenvolvimento {
+    width: 615px;
+    height: 320px;
+    float: right;
+}
+
+#tituloDesenvolvimento {
+    margin-top: 10px;
+}
+
+#queroFazerCursoDesenvolvimentoWeb {
+    margin: auto;
+    width: 615px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 165px;
+}
+
+#queroFazerCursoSistemasOperacionais {
+    margin: auto;
+    width: 450px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: 3px;
+}
+
+
+/*  Seção Contato  */
+
+#iconeGmail {
+    color: #ffffff;
+    font-size: 80px;
+    margin: auto;
+    display: block;
+    margin: auto;
+    margin-top: -180px;
+}
+
+#gostariaOuvirVoce {
+    margin-top: 110px;
+}
+
+#divIcones {
+    width: 80%;
+    height: 75px;
+    margin-left: 10%;
+}
+
+#contato>p {
+    color: white;
+}
+
+#contate_nos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: white;
+    margin-top: 180px !important;
+    margin-left: 20px;
+}
+
+.iconeRedeSocias {
+    display: block;
+    float: left;
+    margin: auto;
+    margin: 90px 20px;
+}
+
+#secaoContato {
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+
+#contato {
+    width: 370px;
+    height: 500px;
+    background: var(--color-background);
+    margin-left: 120px;
+    float: left;
+}
+
+#form {
+    width: 550px;
+    height: 500px;
+    float: left;
+}
+
+input,
+textarea,
+label {
+    width: 500px;
+    margin-left: 20px;
+    margin: 17px;
+}
+
+input,
+textarea {
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: #FE6201;
+    border-style: solid;
+}
+
+input {
+    height: 32px;
+}
+
+button {
+    width: 500px;
+    height: 30px;
+    margin-left: 20px;
+    background: var(--color-background);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+
+/* Seção do footer */
+
+footer {
+    width: 100%;
+    height: 437px;
+    margin: auto;
+    margin-top: 30px;
+    background: linear-gradient(180deg, #D0CAC8 0%, #FB6A4C 81.77%);
+}
+
+footer>section {
+    width: 1200px;
+    height: 365px;
+    margin: auto;
+}
+
+#inscreva {
+    margin: 30px 0px 0px 75px;
+    color: white;
+}
+
+#bt_Inscreva {
+    width: 30px;
+    height: 40px;
+    background: var(--color-background);
+    border-color: transparent;
+    border-radius: 0px 0px 10px 12px;
+    transform: rotate(-90deg);
+    margin-left: -57px;
+}
+
+#icone_seta {
+    font-size: 32px;
+    color: #ffffff;
+    margin-top: -20px;
+}
+
+footer>section>a>img {
+    margin: 10px 0px 20px 20px;
+}
+
+hr {
+    width: 1000px;
+    height: 4px;
+    border: 0px;
+    margin: auto;
+    background: var(--color-background);
+}
+
+#div_links {
+    width: 500px;
+    height: 80px;
+    margin: 50px 55px 0px 0px;
+    float: right;
+}
+
+#div_links>ul>li {
+    margin-bottom: 30px;
+}
+
+#div_links>ul>li>a {
+    color: white;
+}
+
+#div_IconesRedesSocias {
+    width: 500px;
+    height: 80px;
+    margin: 70px 0px 0px 450px;
+}
+
+.iconesRedesSocias {
+    margin: 15px !important;
+}
+
+footer>div {
+    width: 100%;
+    height: 70px;
+    background: var(--color-background);
+}
+
+#p_todosOsDireitosReservados {
+    text-align: center;
+    color: white;
+    margin: 0px !important;
+    padding-top: 13px;
+}
