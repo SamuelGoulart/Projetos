@@ -1,0 +1,48 @@
+1) Fazer o download é instalar o yarn
+
+  Criar um projeto react com typescript, o mais básico que existe.
+  Comando dado no PowerShell como administrador
+2) yarn create react-app moveit --template=typescript
+
+Inicializa a aplicação react
+Comando dado dentro do terminal do Visual Studio Code 
+3)yarn start
+
+Três conceitos importantes de React é:
+ Componentes
+ Propriedades
+ Estado
+
+Segundo Dia
+ Conhecendo o Next.js
+ Next.js foi desenvolvido para que fosse possível indexar as nossas aplicaçãos React no navegador de busca.
+
+ Três siglas mais famosas do desenvolvimento front end
+ SPA, SSR e SSG
+
+
+13:30 minutos:
+ SPA é quando a gente cria um projeto com React tradicional que, caso a gente desabilite o JavaScript para de funcionar isso nem sempre é um problema, às vezes você tá  construído, por exemplo um painel de administração ele não vai precisar ser indexado pelo google, ele não precisa de um motor de busca, fazer um emmeti, cada caso    pricisa ser avaliado.
+
+ Single Page Application é também quando há trocas de rotas, ocasiona troca do conteúdo, mas não da página como um todo
+
+
+SSR (Server Side Rendering) é o que a gente vai utilizar nesse projeto!
+ Mais informações sobre:
+ https://www.youtube.com/watch?v=aQFPetOyzUE
+
+12 minutos:
+  Next.js é uma camada intermediária entre nosso Banck-end e Front-end, sendo responsável por construir a interface da aplicação, por um servidor,  por uma camada   intermediária, quando o usuário acessar já vai estar pronto.
+
+  Next.js não remove nenhuma flexibilidade e não adiciona muitas funcionalidades em cima do react puro.
+
+
+15:5 MINUTOS
+    SSG (Server Side  Generation) é algo que foi criado há um bom tempo.
+
+    SSG (Server Side Generation) é algo que foi criado há um bom tempo, na verdade foi a primeira forma de desenvolver a web era tudo estático, as páginas elas não     precisavam acessar um banco de dados ou qualquer coisa assim era sempre tudo HTML puro, e o Server Side Generation também é um HTML puro, digamos que é HTML, CSS e JS   puro, que não precisa conectar a API, mas ele é um HTML, CSS é JS que consegue atualizar tanto e tanto tempo , imagina por exemplo que a gente tem blog com milhões     de acessos, ou a própria globo.com que tem milhões de acessos a cada segundo, agora a cada pessoa que acessa essa página eu preciso fazer uma requisição ao banco de    dados para buscar todas as informação para mostrar para o usuário o Banck-end, mas essa notícias se atualização a cada 15 minutos, se dentro de 15 minutos tiver um     milhão de acesso na minha aplicação, logo você terá um milhão de chamadas para o Back-end retomar as mesmas informação, então é super custoso para o Back-end e as     vezes uma página demora muito para mudar.
+    Imagina que você está criando um blog, sendo assim, você tem o conteúdo do blog, toda vez que a pessoa acessa aquele blog, terá uma requisição no banco de dados   para   pegar o título, comentários, autor, fotos entre outros, você trás para o Front-end e monta a tela, só que você nunca atualizou esse post desde que você lançou   seu    blog, é já faz 2 anos, todo mundo que acessou o post precisou fazer requisição para o banco de dados mandar as mesmas informação, por que isso precisa ir no   banco   de dados?, faz sentido isso ir no banco de dados?
+    Então o que a gente consegue fazer no next.js essas páginas que não mudam com muita frequência ou até que mudam com frequência, mas não tanto a gente pode falar   para o next.js, quando uma pessoa acessar essa página grava em memória, ou seja gera um HTML, CSS e Js estático dessa página todo mundo que acessar isso no intervalo   de um minuto, por exemplo mostra a mesma página, dessa forma não será preciso ir no banco de dados é atualizar todo de novo, é o next.js faz isso de forma totalmente  automatizada.
+
+
+
