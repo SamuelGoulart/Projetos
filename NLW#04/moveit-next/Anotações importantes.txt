@@ -1,0 +1,122 @@
+1) Fazer o download é instalar o yarn
+
+  Criar um projeto react com typescript, o mais básico que existe.
+  Comando dado no PowerShell como administrador
+
+2) yarn create react-app moveit --template=typescript
+
+Inicializa a aplicação react
+Comando dado dentro do terminal do Visual Studio Code 
+3)yarn start
+
+   Cria um projeto next.js
+   Comando dado no PowerShell
+4) yarn create next-app moveit-next
+
+5) comando para:
+   A instalação do typescript typecript
+   A instalação do @types/react que são as tipagens da biblioteca do react
+   A instalação do @types/react-dom que são as tipagens da biblioteca react dom
+   A instalação do @type/node
+   Comando completo
+   Comando dado dentro do terminal do Visual Studio Code 
+   yarn add typescript @types/react @types/react-dom @types/node -D
+
+   -D significa que estamos instalando como dependência de desenvolvimento ou seja são dependência que eu não preciso em produção porque em produção nosso código vai ser convertido para javaScript
+   
+  Comando dado dentro do terminal do Visual Studio Code 
+  Inicializa a aplicação node.js
+6) yarn devk
+
+7) Comando para fazer o download da biblioteca de cookie
+   Comando dado dentro do terminal do Visual Studio Code 
+    yar add js-cookie
+
+8)  Comando para fazer o download na tipagem  do cookies
+    yarn add @types/js-cookie -D
+
+Colando o projeto na web, hospedando dentro da versal.
+
+     Todos os comandos dados no Windows powershell
+
+     1º Passo, fazer criar uma conta na versal ou fazer login na versal
+     2º Download Vercel CLI
+        Link: https://vercel.com/download
+        npm i -g vercel
+
+     3º comando: vercal login
+        Você vai colocar que um e-mail no campo, coloque o mesmo e-mail que foi criado a conta de preferência.
+        Ele vai enviar um E-mail, para fazer a verificação
+        Caso você não faça a verificação não dará continuidade, no powerShell 
+
+     4ºAgora dentro da pasta do seu projeto
+        Comando: vercal
+        Vai aparecer a seguinte mensagem 
+        O caminho C:\Projetos\NLW#04” pode ser outro, depende onde está seu projeto.
+        Set up and deploy “C:\Projetos\NLW#04”? [Y/n]    Resposta: y
+
+        Provavelmente só vai aparecer um opção, então é só entre 
+        Em qual escopo você deseja implantar?
+        Which scope do you want to deploy to? samuelgoulart	
+
+        Link para projeto existente?
+        Link to existing project? [y/N] resposta: n 
+        Caso queira atualizar o projeto já existe é: resposta:  y
+
+       Qual é o nome do seu projeto?
+       What’s your project’s name? Moveit
+       Coloque o nome que quiser, nesse caso coloquei o nome Moveit
+
+       Em qual diretório está localizado o seu código? ./
+       In which directory is your code located? ./
+       Só apertar entre, porque como foi especificado em cima, para tá o comando dentro da pasta do projeto, não dera nenhum problema
+
+       Quer substituir as configurações?
+       Want to override the settings? [y/N] resposta: n
+
+       Comando vercel-prod, para ir direto para o projeto
+                          ou
+       Agora só ir ao vercel, que seu projeto já estará publicado 
+
+
+Três conceitos importantes de React é:
+ Componentes
+ Propriedades
+ Estado
+
+Segundo Dia
+ Conhecendo o Next.js
+ Next.js foi desenvolvido para que fosse possível indexar as nossas aplicaçãos React no navegador de busca.
+
+ Três siglas mais famosas do desenvolvimento front end
+ SPA, SSR e SSG
+
+
+13:30 minutos:
+ SPA é quando a gente cria um projeto com React tradicional que, caso a gente desabilite o JavaScript para de funcionar isso nem sempre é um problema, às vezes você tá  construído, por exemplo um painel de administração ele não vai precisar ser indexado pelo google, ele não precisa de um motor de busca, fazer um emmeti, cada caso    pricisa ser avaliado.
+
+ Single Page Application é também quando há trocas de rotas, ocasiona troca do conteúdo, mas não da página como um todo
+
+
+SSR (Server Side Rendering) é o que a gente vai utilizar nesse projeto!
+ Mais informações sobre:
+ https://www.youtube.com/watch?v=aQFPetOyzUE
+
+12 minutos:
+  Next.js é uma camada intermediária entre nosso Banck-end e Front-end, sendo responsável por construir a interface da aplicação, por um servidor,  por uma camada   intermediária, quando o usuário acessar já vai estar pronto.
+
+  Next.js não remove nenhuma flexibilidade e não adiciona muitas funcionalidades em cima do react puro.
+
+
+15:5 MINUTOS
+    SSG (Server Side  Generation) é algo que foi criado há um bom tempo.
+
+    SSG (Server Side Generation) é algo que foi criado há um bom tempo, na verdade foi a primeira forma de desenvolver a web era tudo estático, as páginas elas não     precisavam acessar um banco de dados ou qualquer coisa assim era sempre tudo HTML puro, e o Server Side Generation também é um HTML puro, digamos que é HTML, CSS e JS   puro, que não precisa conectar a API, mas ele é um HTML, CSS é JS que consegue atualizar tanto e tanto tempo , imagina por exemplo que a gente tem blog com milhões     de acessos, ou a própria globo.com que tem milhões de acessos a cada segundo, agora a cada pessoa que acessa essa página eu preciso fazer uma requisição ao banco de    dados para buscar todas as informação para mostrar para o usuário o Banck-end, mas essa notícias se atualização a cada 15 minutos, se dentro de 15 minutos tiver um     milhão de acesso na minha aplicação, logo você terá um milhão de chamadas para o Back-end retomar as mesmas informação, então é super custoso para o Back-end e as     vezes uma página demora muito para mudar.
+    Imagina que você está criando um blog, sendo assim, você tem o conteúdo do blog, toda vez que a pessoa acessa aquele blog, terá uma requisição no banco de dados   para   pegar o título, comentários, autor, fotos entre outros, você trás para o Front-end e monta a tela, só que você nunca atualizou esse post desde que você lançou   seu    blog, é já faz 2 anos, todo mundo que acessou o post precisou fazer requisição para o banco de dados mandar as mesmas informação, por que isso precisa ir no   banco   de dados?, faz sentido isso ir no banco de dados?
+    Então o que a gente consegue fazer no next.js essas páginas que não mudam com muita frequência ou até que mudam com frequência, mas não tanto a gente pode falar   para o next.js, quando uma pessoa acessar essa página grava em memória, ou seja gera um HTML, CSS e Js estático dessa página todo mundo que acessar isso no intervalo   de um minuto, por exemplo mostra a mesma página, dessa forma não será preciso ir no banco de dados é atualizar todo de novo, é o next.js faz isso de forma totalmente  automatizada.
+
+
+42:20 minutos contexto
+     contexto é uma forma de ter acesso a uma informação de diversos lugares
+
+
