@@ -44,5 +44,3 @@ SSR (Server Side Rendering) é o que a gente vai utilizar nesse projeto!
     Imagina que você está criando um blog, sendo assim, você tem o conteúdo do blog, toda vez que a pessoa acessa aquele blog, terá uma requisição no banco de dados   para   pegar o título, comentários, autor, fotos entre outros, você trás para o Front-end e monta a tela, só que você nunca atualizou esse post desde que você lançou   seu    blog, é já faz 2 anos, todo mundo que acessou o post precisou fazer requisição para o banco de dados mandar as mesmas informação, por que isso precisa ir no   banco   de dados?, faz sentido isso ir no banco de dados?
     Então o que a gente consegue fazer no next.js essas páginas que não mudam com muita frequência ou até que mudam com frequência, mas não tanto a gente pode falar   para o next.js, quando uma pessoa acessar essa página grava em memória, ou seja gera um HTML, CSS e Js estático dessa página todo mundo que acessar isso no intervalo   de um minuto, por exemplo mostra a mesma página, dessa forma não será preciso ir no banco de dados é atualizar todo de novo, é o next.js faz isso de forma totalmente  automatizada.
 
-
-
