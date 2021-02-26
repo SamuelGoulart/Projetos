@@ -64,6 +64,6 @@ export function Countdown(){
                 ) }
             </>
             )}   
-        </div>
+         </div>
     );
 }
