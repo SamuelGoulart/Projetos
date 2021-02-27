@@ -14,7 +14,7 @@
 </p>
 
 <h3>O que é o Move.it<h3>
- <p>&#32;O Move.it é um App que veio para acioná-lo para fazer exercícios!</p>
- <p>&#32;projeto desenvolvido durante a Next Level Week #04</p>
- <p>&#32;Durante entre os dias 22 a 28 de fevereiro de 2021, por @Rocketseat</p>
+ <p>&#32;&#32;&#32;O Move.it é um App que veio para acioná-lo para fazer exercícios!</p>
+ <p>&#32;&#32;&#32;projeto desenvolvido durante a Next Level Week #04</p>
+ <p>&#32;&#32;&#32;Durante entre os dias 22 a 28 de fevereiro de 2021, por @Rocketseat</p>
  
