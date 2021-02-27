@@ -1,8 +1,8 @@
 <h1  align="center">Move.it</h1>
-
+<br>
 <img align="right" src="favicon.png" width="35%" alt="Move.it">
 
-<br><br>
+<br>
 <h2>Tópicos</h2> 
 <ul>
     <li>Sobre Move.it  </li>
