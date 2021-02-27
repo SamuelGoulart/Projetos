@@ -5,9 +5,5 @@
     <tr>
         <td width="20%" ></td>
         <td width="80%" ><h2> Tópicos</h2></td>
-        
-    </tr>
-    <tr>
-        
     </tr>
 </table>
