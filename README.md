@@ -2,6 +2,7 @@
 
 <img align="right" src="favicon.png" width="35%" alt="Move.it">
 
+<br><br>
 <h2>Tópicos</h2> 
 <ul>
     <li>Sobre Move.it  </li>
@@ -12,15 +13,16 @@
 </ul>
 
 <br><br>
+<br><br>
 <br>
 
 <h2>
    <img src="favicon.png" width="3%" alt="Move.it">
     Sobre o Move.it
 </h2>
-    &nbsp;&nbsp;  O Move.it é um App que veio para acioná-lo para fazer exercícios!<br>
-    &nbsp;&nbsp;    projeto desenvolvido durante a Next Level Week #04.<br>
-    &nbsp;&nbsp;    Durante entre os dias 22 a 28 de fevereiro de 2021, por @Rocketseat.
+    &nbsp;&nbsp;&nbsp;  O Move.it é um App que veio para acioná-lo para fazer exercícios!<br>
+    &nbsp;&nbsp;&nbsp;  projeto desenvolvido durante a Next Level Week #04.<br>
+    &nbsp;&nbsp;&nbsp;  Durante entre os dias 22 a 28 de fevereiro de 2021, por @Rocketseat.
 
 ## 🧪 Technologies
 
