@@ -14,7 +14,6 @@
 
 <br><br>
 <br><br>
-<br>
 
 <h2>
    <img src="favicon.png" width="3%" alt="Move.it">
