@@ -11,5 +11,5 @@
 
 
 <p align="center">
-  <img alt="Moveit" src="NLW#04/moveit-next/public/favicon.png" width="120px">
+  <img  src="favicon.png" width="120px">
 </p>
