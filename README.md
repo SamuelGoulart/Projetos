@@ -20,7 +20,7 @@
     Sobre o Move.it
 </h2>
     &nbsp;&nbsp;&nbsp;  O Move.it é um App que veio para acioná-lo para fazer exercícios!<br>
-    &nbsp;&nbsp;&nbsp;  projeto desenvolvido durante a Next Level Week #04.<br>
+    &nbsp;&nbsp;&nbsp;  Projeto desenvolvido durante a Next Level Week #04.<br>
     &nbsp;&nbsp;&nbsp;  Durante entre os dias 22 a 28 de fevereiro de 2021, por @Rocketseat.
 
 ## 🧪 Technologies
