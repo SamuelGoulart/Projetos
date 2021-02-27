@@ -1,15 +1,14 @@
-<h1 align="center">
-    <img alt="Move.it" title="Move.it" src=".github/moveit.svg" />
-</h1>
+<h1  align="center">Move.it</h1>
+ 
+ <h2> Tópicos</h2>
 
-<p align="center">
-  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
-</p>
+<ul>
+    <li>Sobre Move.it  </li>
+    <li>Tecnologias  </li>
+    <li>Instalação e uso</li>
+    <li>Layout</li>
+    <li>Licença</li>
+</ul>
 
 <p align="center">
   <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=5965E0&labelColor=121214" alt="License">
