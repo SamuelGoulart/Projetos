@@ -9,7 +9,7 @@
 * Layout
 * Licença
 
-<p align="center" style="margin-left: 100px;" >                               
+<p align="center" style="margin-left: 100px; margin-top: -50px;" >                               
     <img alt="Imagem do Moveit"  src="favicon.png" width="120px">                 
 </p>
 
