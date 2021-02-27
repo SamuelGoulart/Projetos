@@ -12,12 +12,15 @@
 </ul>
 
 <br>
+<br>
 
-
-
-<p align="center">
-  <img alt="Moveit" src=".github/icon.svg" width="120px">
-</p>
+<h2>
+   <img src="favicon.png" width="3%" alt="Move.it">
+    Sobre o Move.it
+</h2>
+        O Move.it é um App que veio para acioná-lo para fazer exercícios!
+        projeto desenvolvido durante a Next Level Week #04
+        Durante entre os dias 22 a 28 de fevereiro de 2021, por @Rocketseat
 
 ## 🧪 Technologies
 
