@@ -3,11 +3,13 @@
  
  Tópicos
 
-* Sobre Move.it                           <p align="center">
-* Tecnologias                                   <img alt="Imagem do Moveit"  src="favicon.png" width="120px">
-* Instalação e uso                         </p>
+* Sobre Move.it                           
+* Tecnologias                                   
+* Instalação e uso                         
 * Layout
 * Licença
 
-
+<p align="center" style="margin-left: 100px;" >                               
+    <img alt="Imagem do Moveit"  src="favicon.png" width="120px">                 
+</p>
 
