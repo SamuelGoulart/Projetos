@@ -22,7 +22,7 @@
     &nbsp;&nbsp;&nbsp;  Projeto desenvolvido durante a Next Level Week #04.<br>
     &nbsp;&nbsp;&nbsp;  Durante entre os dias 22 a 28 de fevereiro de 2021, por @Rocketseat.
 
-## 🧪 Technologies
+## Tecnologias
 
 This project was developed using the following technologies:
 
