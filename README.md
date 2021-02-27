@@ -1,6 +1,6 @@
 <h1  align="center">Move.it</h1>
 <br>
-<img align="right" src="favicon.png" width="35%" alt="Move.it">
+<img align="right" src="favicon.png" width="30%" alt="Move.it">
 
 <h2>Tópicos</h2> 
 <ul>
