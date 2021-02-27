@@ -24,11 +24,13 @@
 
 ## Tecnologias
 
-This project was developed using the following technologies:
+Tecnologias utilizadas no desenvolvimento do move.it
 
-- [Next.js](https://nextjs.org/)
-- [React](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org/)
+<ul>
+    <li>React</li>
+    <li>Next.js</li>
+    <li>TypeScript</li>
+</ul>
 
 ## 🔥 Preview
 
