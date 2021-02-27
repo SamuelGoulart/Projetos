@@ -1,7 +1,4 @@
 <h1  align="center">Move.it</h1>
- 
- <h2> Tópicos</h2>
-
 
 <img align="right" src="favicon.png" width="35%" alt="Move.it">
 
