@@ -16,6 +16,6 @@
 </p>
 
 <h2>O que é o Move.it<h2>
- <p style="margin-left: 20px; font-size: 14px; " >&#32;&#32;&#32;O Move.it é um App que veio para acioná-lo para fazer exercícios!</p>
- <p style="margin-left: 20px; font-size: 14px; " >&#32;&#32;&#32;projeto desenvolvido durante a Next Level Week #04</p>
- <p style="margin-left: 20px; font-size: 14px; " >&#32;&#32;&#32;Durante entre os dias 22 a 28 de fevereiro de 2021, por @Rocketseat</p>
+ <p style="margin-left: 20px; font-size: 14px;" >O Move.it é um App que veio para acioná-lo para fazer exercícios!</p>
+ <p style="margin-left: 20px; font-size: 14px;" >projeto desenvolvido durante a Next Level Week #04</p>
+ <p style="margin-left: 20px; font-size: 14px;" >Durante entre os dias 22 a 28 de fevereiro de 2021, por @Rocketseat</p>
